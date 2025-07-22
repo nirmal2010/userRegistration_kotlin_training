@@ -23,4 +23,8 @@ fun main() {
         println("The length of input set is ${inputSet.count()}")
         println(elements)
     }
+    val map = mapOf("a" to 10,"box" to "Hello")
+    for ((k, v) in map) {
+        println("$k -> $v")
+    }
 }
